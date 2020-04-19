@@ -1,57 +1,69 @@
-[{
-  "company": "Infoset",
-  "role": "Co-Founder",
-  "date": "08/2019 - Present",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Building advanced communication and marketing solutions for businesses: <a href=\"https://infoset.app/\" target=\"_blank\" title=\"cloud call center, sales management, customer support\">https://infoset.app/</a>"
-  ]
-}, {
-  "company": "Lisa AI",
-  "role": "Co-Founder",
-  "date": "09/2018 - 02/2019",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Built parts of the mobile app of Lisa (with React Native). ",
-    "Built parts of the backend architecture and big-data infrastructure using Hadoop, HBase, Phoenix, Spark."
-  ]
-}, {
-  "company": "Pisano",
-  "role": "Lead Software Engineer",
-  "date": "09/2017 - 11/2018",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Designed the architecture of, built (with Scala), and deployed Pisano Analytics.",
-    "Organized the first Pisano Hackathon. (https://hackathon.pisano.co/)",
-    "Led the web product team for 5 months. Designed the new architecture of <a href=\"https://www.pisano.co/en/widget-channels/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pisano Web Widget</a> and built most of the production system.",
-    "Extensively used ES6/ES7, React, Redux, Redux-Saga."
-  ]
-}, {
-  "company": "Google",
-  "role": "Software Engineering Intern",
-  "date": "06/2017 - 09/2017",
-  "location": "Zürich, Switzerland",
-  "description_bullets": [
-    "Built and tested the backend of a mid-size product feature.",
-    "Built a pipeline to collect user statistics and do data analysis."
-  ]
-}, {
-  "company": "Pisano",
-  "role": "Software Engineer",
-  "date": "06/2016 - 06/2017",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Full-stack web development using Ruby on Rails, AngularJS, CoffeeScript, HTML5, LESS.",
-    "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
-    "Built, tested and successfully launched the key web product Pisano Web Widget."
-  ]
-}, {
-  "company": "Boğaziçi University Entrepreneurship Center",
-  "role": "Development Team Leader",
-  "date": "09/2016 - 06/2017",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Was in charge of a team of 6 people.",
-    "Built and deployed the new web application of the entrepreneurship center called \"Bright\" using PHP (Laravel) and JS (ES6)."
-  ]
-}]
+[
+  {
+    "company": "Straal",
+    "role": "Python Developer",
+    "date": "06/2019 - Present",
+    "location": "Warsaw, Poland",
+    "description_bullets": [
+      "Straal is an online payment service for businesses. ",
+      "I've been developing and coordinating work for a tool used to prepare mock transaction data for internal use.",
+      "Another project is an internal web application for managing customers.",
+      "I've got back to Python and PostgreSQL after a few years break and also become familiar with asyncio."
+    ]
+  },
+  {
+    "company": "Grupa Wirtualna Polska",
+    "role": "Senior Software Developer",
+    "date": "11/2018 - 06/2019",
+    "location": "Warsaw, Poland",
+    "description_bullets": [
+      "Continuation of my previous role at Grupa Wirtualna Polska."
+    ]
+  },
+  {
+    "company": "Grupa Wirtualna Polska",
+    "role": "Software Developer",
+    "date": "03/2014 - 11/2018",
+    "location": "Warsaw, Poland",
+    "description_bullets": [
+      "Most of the time I was a part of the team developing an e-mail service for poczta.o2.pl and poczta.wp.pl (aaproximately 9 million monthly real users). ",
+      "Learned and used mainly Golang and how to write microservices, REST APIs.",
+      "Other technologies I've used: Cassandra, Redis, GCM/FCM, Kafka, ZMQ, websockets, Python, Elastic Search, MySQL, Grafana, Docker, Gitlab CI, Hadoop Query Language, Flask.",
+      "I've had experience also with processing large streams of events and authenticating users.",
+      "Other small projects: developing a Python tool for Ceph synchronization"
+    ]
+  },
+  {
+    "company": "Grupa o2",
+    "role": "Python/Django Developer",
+    "date": "07/2013 - 02/2014",
+    "location": "Warsaw, Poland",
+    "description_bullets": [
+      "I was a part of the team developing wrzuta.pl (a Polish video and audio streaming service). ",
+      "Technologies I've used: Python, Django, Redis, Elastic Search.",
+      "After six months Grupa o2 joined with Grupa Wirtualna Polska."
+    ]
+  },
+  {
+    "company": "National Institute of Telecommunications",
+    "role": "Python/Django Developer",
+    "date": "09/2012 - 07/2013",
+    "location": "Warsaw, Poland",
+    "description_bullets": [
+      "Developing two applications for reporting various things for public institutions.",
+      "One of them was for reports about broadband networks and the other for reporting funds from the EU.",
+      "Both projects were using Python and Django."
+    ]
+  },
+  {
+    "company": "Esensive and KOM-NET Sp. z o.o",
+    "role": "Python developer",
+    "date": "11/2010 - 09/2012",
+    "location": "Toruń, Poland",
+    "description_bullets": [
+      "Developing a backbone in Python for running programs in Python and R written by data scientists.",
+      "I was a part of small team (2-5 people), technologies used: Python, Cassandra",
+      "Some other minor projects using technologies such as Java, PostGIS"
+    ]
+  }
+]

@@ -84,49 +84,7 @@
         </div>
         <!--(bake-end)-->
 
-        <!--(bake-start _if="projects.length")-->
-        <div class="block">
-          <!--(bake _section-header.html title="Open Source Projects")-->
-          <!--(bake-start _foreach="project:projects")-->
-            <section class="project">
-              <div class="flex-row flex-space-between">
-                <h1>{{project.name | trim}}
-                  <!--(bake-start _if="project.github")-->
-                  <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
-                  <!--(bake-end)-->
-                  <!--(bake-start _if="project.link")-->
-                  <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
-                  <!--(bake-end)-->
-                </h1>
-              </div>
-              <p>{{project.description | trim}}</p>
-            </section>
-          <!--(bake-end)-->
-        </div>
-        <!--(bake-end)-->
-
-        <!--(bake-start _if="volunteering_experiences.length")-->
-        <div class="block">
-          <!--(bake _section-header.html title="Volunteering Experience")-->
-          <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
-        </div>
-        <!--(bake-end)-->
-
-        <!--(bake-start _if="languages.length")-->
-        <div class="block">
-          <!--(bake _section-header.html title="Languages")-->
-          <section class="languages">
-            <ul class="bullets">
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <span><strong>{{language.name | trim}}</strong>
-                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
-              </li>
-              <!--(bake-end)-->
-            </ul>
-          </section>
-        </div>
-        <!--(bake-end)-->
+        
       </div>
 
       <div class="col-sm-12 col-md-6 half-page" id="second-half-page">
@@ -186,6 +144,50 @@
           <!--(bake-end)-->
         </div>
         <!--(bake-end)-->
+        <!--(bake-start _if="projects.length")-->
+        <div class="block">
+          <!--(bake _section-header.html title="Other Projects")-->
+          <!--(bake-start _foreach="project:projects")-->
+            <section class="project">
+              <div class="flex-row flex-space-between">
+                <h1>{{project.name | trim}}
+                  <!--(bake-start _if="project.github")-->
+                  <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
+                  <!--(bake-end)-->
+                  <!--(bake-start _if="project.link")-->
+                  <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
+                  <!--(bake-end)-->
+                </h1>
+              </div>
+              <p>{{project.description | trim}}</p>
+            </section>
+          <!--(bake-end)-->
+        </div>
+        <!--(bake-end)-->
+
+        <!--(bake-start _if="volunteering_experiences.length")-->
+        <div class="block">
+          <!--(bake _section-header.html title="Volunteering Experience")-->
+          <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
+        </div>
+        <!--(bake-end)-->
+
+        <!--(bake-start _if="languages.length")-->
+        <div class="block">
+          <!--(bake _section-header.html title="Languages")-->
+          <section class="languages">
+            <ul class="bullets">
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <span><strong>{{language.name | trim}}</strong>
+                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
+              </li>
+              <!--(bake-end)-->
+            </ul>
+          </section>
+        </div>
+        <!--(bake-end)-->
+        
 
         <!--(bake-start _if="honors.length")-->
         <div class="block">

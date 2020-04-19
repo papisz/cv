@@ -1,27 +1,14 @@
 {
-  "name": "Samed Duzcay",
-  "profession": "Software Engineer",
-  "summary": "A confident, self-motivated software engineer with 6 years of experience in software development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-  "mail": "samedduzcay@gmail.com",
+  "name": "Patrycja Szabłowska",
+  "profession": "Software Developer",
+  "summary": "Golang and Python developer with attention to detail and good soft skills. For a couple of years I've been coding mainly in Golang (microservices, REST APIs). Last couple of months I've switched back to programming in Python. At the moment I like programming both in Golang and Python. I care very much about clean code and I try to keep it SOLID.",
+  "photo": "img/photo.png",
   "address": {
-    "title": "Istanbul, Turkey",
-    "url": "https://www.google.com.tr/maps/@41.0847699,29.0492408,16.39z"
-  },
-  "personal_site": {
-    "title": "smddzcy.com",
-    "url": "https://smddzcy.com/"
-  },
-  "github": {
-    "title": "github.com/smddzcy",
-    "url": "https://github.com/smddzcy"
+    "title": "Warsaw, Poland",
+    "url": "https://www.google.com/maps/place/Warszawa/@52.2326063,20.7810167,10z"
   },
   "linkedin": {
-    "title": "linkedin.com/in/smddzcy",
-    "url": "https://www.linkedin.com/in/smddzcy"
-  },
-  "hackerrank": {
-    "title": "hackerrank.com/smddzcy",
-    "url": "https://www.hackerrank.com/smddzcy"
-  },
-  "google_analytics": "UA-43755905-9"
+    "title": "Linked In Profile",
+    "url": "https://www.linkedin.com/in/patrycja-szab%C5%82owska-813b9a49/"
+  }
 }
